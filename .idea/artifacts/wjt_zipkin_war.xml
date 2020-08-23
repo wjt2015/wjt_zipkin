@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="wjt_zipkin:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>wjt_zipkin</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="wjt_zipkin.war">
+      <element id="artifact" artifact-name="wjt_zipkin:war exploded" />
+    </root>
+  </artifact>
+</component>
